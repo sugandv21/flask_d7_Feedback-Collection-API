@@ -64,4 +64,5 @@ class FeedbackResource(Resource):
 api.add_resource(FeedbackResource, "/feedback", endpoint="feedback")
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False)
+
